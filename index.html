@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DX TERM - интерактивный веб-терминал Daxo OS.">
+    <meta name="keywords" content="dx term, daxo.sh, daxo, daxo os, daxo-developer, terminal">
+    <title>DX TERM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="terminal" id="terminal" onclick="document.getElementById('command-input').focus()">
+        <div id="output">
+            <!-- ASCII-арт DX TERM из patorjk.com -->
+<pre>
+  _______   __  _______ ______ _____  __  __ 
+ |  __ \ \ / / |__   __|  ____|  __ \|  \/  |
+ | |  | \ V /     | |  | |__  | |__) | \  / |
+ | |  | |> <      | |  |  __| |  _  /| |\/| |
+ | |__| / . \     | |  | |____| | \ \| |  | |
+ |_____/_/ \_\    |_|  |______|_|  \_\_|  |_|
+</pre>
+            <p>Welcome to DX TERM (Daxo OS Engine)!</p>
+            <p>Type 'help' to see the list of commands.</p>
+            <p></p>
+        </div>
+        
+        <div class="input-line">
+            <span class="prompt">visitor@daxo.sh:~$</span>
+            <input type="text" id="command-input" autofocus autocomplete="off" spellcheck="false">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
