@@ -1,0 +1,41 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    margin: 0;
+}
+
+.terminal {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: text;
+}
+
+#output p {
+    margin: 5px 0;
+    white-space: pre-wrap;
+    line-height: 1.4;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prompt {
+    color: #58a6ff;
+    margin-right: 10px;
+}
+
+#command-input {
+    background: transparent;
+    border: none;
+    color: #ecf2f8;
+    font-family: inherit;
+    font-size: inherit;
+    flex: 1;
+    outline: none;
+}
